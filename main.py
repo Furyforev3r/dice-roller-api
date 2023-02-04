@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 import uvicorn
 import random
+import os
+
 
 app = FastAPI()
 
@@ -44,4 +46,4 @@ async def main(dice_input: str):
             dices_dict = {"Error": "Invalid input", "0" : {'Amount': 0, 'Sides': 0, 'Results': [], 'Mod': [], 'ModSum': 0, 'TotalNoMod': 0, 'TotalMod': 0, 'Greater': 0, 'Less': 0, 'Average': 0, 'GreaterWMod': 0}}
     return dices_dict
 
-uvicorn.run(app, port = 5000, host = "0.0.0.0")
+uvicorn.run(app, port = os.environ['PORT'], host = "0.0.0.0")
