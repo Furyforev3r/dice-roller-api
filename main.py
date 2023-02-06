@@ -28,6 +28,8 @@ async def main(dice_input: str):
             dice_d_split = dices[dices_verificacao].split('d')
             dices_amount = int(dice_d_split[0])
             dices_sides = int(dice_d_split[1])
+            if dices_amount > 100 or dices_amount <= 1 or dices_sides <= 1:
+                raise ValueError
             dices_array = []
             dice_mod = []
             mod_sum = 0
