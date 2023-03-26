@@ -81,4 +81,4 @@ async def main(dice_input: str):
             }
     return dices_dict
 
-uvicorn.run(app, port=3000, host="0.0.0.0")
+uvicorn.run(app, port = os.environ['PORT'], host = "0.0.0.0")
