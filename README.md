@@ -1,3 +1,4 @@
+![Dice Roller API](https://github.com/Furyforev3r/dice-roller-api/assets/88341564/7c5f4f4b-c1b6-4407-9c4f-fa7dadd16161)
 > # :game_die: Dice-roller-API
 **A dice rolling API done in python using fastAPI operating on https://dice-roller-api-production.up.railway.app/**
 > ## :grey_question: How does it work?
