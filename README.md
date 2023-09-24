@@ -15,7 +15,7 @@ requests.get("https://dice-roller-api-production.up.railway.app/1d20+15")
 # 📥 | Installation
 **Clone the repository (or download manually):**
 ```bash
-git clone https://github.com/Furyforev3r/Ordem-Paranormal-Generator.git
+git clone https://github.com/Furyforev3r/dice-roller-api.git
 ```
 ## 📁 | Requirements
 + **Python/Pip**
