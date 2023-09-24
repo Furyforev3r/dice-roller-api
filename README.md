@@ -12,3 +12,15 @@ requests.get("https://dice-roller-api-production.up.railway.app/1d20+15")
 ### **What can I put in the main parameter?**
 **Common dice operations (Example: 1d20) and sum modifiers in operations (Example: 1d20+15).**
 **It is also possible to roll several separate dice at once (Example: 1d20+10d6+15+15+1d100).**
+# 📥 | Installation
+**Clone the repository (or download manually):**
+```bash
+git clone https://github.com/Furyforev3r/Ordem-Paranormal-Generator.git
+```
+## 📁 | Requirements
++ **Python/Pip**
+# 🖥️ | How to Run
+**Run the aplication:**
+```bash
+py main.py
+```
